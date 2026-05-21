@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tela_cadastro"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:paddingStart="20dp"
+    android:paddingEnd="20dp"
+
+    tools:context=".tela_cadastro">
+
+
+    <EditText
+        android:id="@+id/Campo_cpf"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="144dp"
+        android:layout_marginEnd="10dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/Campo_email"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Texto_cpf"
+        app:layout_constraintTop_toBottomOf="@+id/Cadastro" />
+
+    <TextView
+        android:id="@+id/Texto_cpf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:gravity="center"
+        android:text=" Cpf "
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/Campo_cpf"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Campo_cpf" />
+
+    <TextView
+        android:id="@+id/Cadastro"
+        android:layout_width="263dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="center"
+        android:text="Cadastro"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/Campo_cpf"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.246" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="120dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="16dp"
+        android:onClick="botaoStart"
+        android:text="Cadastrar"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Campo_senha"
+        app:layout_constraintVertical_bias="0.475" />
+
+    <TextView
+        android:id="@+id/Texto_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:gravity="center"
+        android:text="Email"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/Campo_email"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Campo_email" />
+
+    <EditText
+        android:id="@+id/Campo_email"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="10dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toTopOf="@+id/Campo_senha"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Texto_email"
+        app:layout_constraintTop_toBottomOf="@+id/Campo_cpf"
+        app:layout_constraintVertical_bias="0.619" />
+
+    <EditText
+        android:id="@+id/Campo_senha"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="10dp"
+        android:ems="10"
+        android:inputType="numberPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Texto_senha"
+        app:layout_constraintTop_toBottomOf="@+id/Campo_email" />
+
+    <TextView
+        android:id="@+id/Texto_senha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:gravity="center"
+        android:text="Senha"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/Campo_senha"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Campo_senha" />
+
+    <Switch
+        android:id="@+id/switch_tema"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:text="Tema"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintVertical_bias="0.404" />
+
+    <TextView
+        android:id="@+id/informacao"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="62dp"
+        android:text="Digite seus dados pessoais"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Cadastro" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+

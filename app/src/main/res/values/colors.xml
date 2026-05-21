@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <color name="Fundo_escuro">#121212</color>
+
+    <color name="black">#FF000000</color>
+
+    <color name="background_dark">#262626</color>
+
+    <color name="surface_grey">#848C8E</color>
+
+    <color name="accent_orange">#E89005</color>
+
+    <color name="Azul_Claro">#8AB4F8</color>
+
+
+
+
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="offwhite">#FAF9F6</color>
+
+    <color name="prata">#C2C1C2</color>
+
+    <color name="Lilas">#6B7FD7</color>
+
+    <color name="Azulescuro">#222E50</color>
+
+
+</resources>
