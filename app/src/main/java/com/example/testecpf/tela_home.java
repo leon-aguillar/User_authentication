@@ -39,19 +39,20 @@ import androidx.core.view.WindowInsetsCompat;
 
             telaCadastro.setOnClickListener(view -> {
                 startActivity(new Intent(this, tela_cadastro.class));
+
             });
 
+            telalogin = findViewById(R.id.botao_login_home); // codigo tela home que faz o botão para ir na tela de login
 
-
-            telalogin = findViewById(R.id.botao_entar_home); // codigo  tela home que faz o botão para ir na tela de login
-
-            telalogin.setOnClickListener(viwe ->{
+            telalogin.setOnClickListener( view -> {
                 startActivity(new Intent(this, tela_login.class));
             });
 
 
 
+
         }
+
 
     }
 

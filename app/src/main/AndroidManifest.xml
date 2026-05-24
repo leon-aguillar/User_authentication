@@ -19,7 +19,7 @@
         </activity>
 
         <activity
-            android:name=".tela_login"
+            android:name="tela_login"
             android:exported="false">
 
         </activity>
@@ -32,6 +32,13 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".tela_Home_Page"
+            android:exported="false">
+
         </activity>
 
 

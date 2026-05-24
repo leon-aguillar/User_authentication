@@ -24,7 +24,9 @@
         app:layout_constraintBottom_toTopOf="@+id/Campo_email"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/Texto_cpf"
-        app:layout_constraintTop_toBottomOf="@+id/Cadastro" />
+        app:layout_constraintTop_toBottomOf="@+id/Cadastro"
+        android:hint="digite apenas numeros"
+        />
 
     <TextView
         android:id="@+id/Texto_cpf"
@@ -94,7 +96,9 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/Texto_email"
         app:layout_constraintTop_toBottomOf="@+id/Campo_cpf"
-        app:layout_constraintVertical_bias="0.619" />
+        app:layout_constraintVertical_bias="0.619"
+        android:hint="digite seu endereço de email"
+        />
 
     <EditText
         android:id="@+id/Campo_senha"
@@ -107,7 +111,9 @@
         android:inputType="numberPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/Texto_senha"
-        app:layout_constraintTop_toBottomOf="@+id/Campo_email" />
+        app:layout_constraintTop_toBottomOf="@+id/Campo_email"
+        android:hint="senha numerica de 6 digitos"
+        />
 
     <TextView
         android:id="@+id/Texto_senha"
@@ -143,6 +149,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Cadastro" />
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
