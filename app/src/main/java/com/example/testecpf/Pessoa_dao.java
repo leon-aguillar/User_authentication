@@ -1,4 +1,4 @@
 package com.example.testecpf;
 
-public class tela_login {
+public interface Pessoa_dao {
 }
